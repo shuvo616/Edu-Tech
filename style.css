@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-    color: #F58d17;
+    color: #289BDE;
 }
 
 img {
@@ -43,4 +43,47 @@ section {
 
 .shadow-on-hover:hover {
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* custom button */
+.btn {
+    border-radius: 0;
+    padding: 14px 38px;
+}
+
+.btn-brand {
+    color: #fff;
+    font-weight: 500;
+    border-color: #289BDE;
+    background-color: #289BDE;
+}
+
+.btn-brand:hover {
+    border-color: #0d88cf;
+    background-color: #0a74b1;
+    color: #fff;
+}
+
+.carousel-caption img {
+    height: 150px;
+}
+
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    object-fit: cover;
+}
+
+/* Slider */
+.slider-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/cover/cover-1.png);
+}
+
+.slider-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/cover/cover-2.jpg);
+}
+
+.slider-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/cover/cover-3.jpg);
 }
