@@ -87,3 +87,12 @@ section {
 .slider-3 {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/cover/cover-3.jpg);
 }
+
+/* Shadow */
+.shadow-on-hover {
+    transition: all 0.3s;
+}
+
+.shadow-on-hover:hover {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
