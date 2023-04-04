@@ -113,3 +113,9 @@ section {
 .shadow-on-hover:hover {
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 }
+
+/* company img */
+.company-img {
+    width: 70%;
+    height: 80%;
+}
