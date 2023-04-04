@@ -119,3 +119,10 @@ section {
     width: 70%;
     height: 80%;
 }
+
+/*  */
+.social i {
+    font-size: 40px;
+    margin: 5px;
+    padding: 5px;
+}
