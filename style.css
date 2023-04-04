@@ -88,6 +88,23 @@ section {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/cover/cover-3.jpg);
 }
 
+/* courses */
+.courses img {
+    width: 40%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .courses {
+        flex-direction: column;
+    }
+
+    .courses img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
 /* Shadow */
 .shadow-on-hover {
     transition: all 0.3s;
