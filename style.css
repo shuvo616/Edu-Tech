@@ -116,13 +116,42 @@ section {
 
 /* company img */
 .company-img {
-    width: 70%;
-    height: 80%;
+    width: auto;
+    height: auto;
 }
 
-/*  */
+/* footer */
 .social i {
     font-size: 40px;
     margin: 5px;
     padding: 5px;
+}
+
+/* review */
+.slider-top img {
+    width: auto;
+}
+
+.person img {
+    width: auto;
+}
+
+.stars {
+    font-size: 20px;
+    color: #F58d17;
+    line-height: 1;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background-color: #289BDE;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
 }
